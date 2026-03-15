@@ -22,7 +22,7 @@ Rscript check_breath_coverage.R <input_file.txt>
 Tab-delimited file from deepTools [`plotCoverage`](https://deeptools.readthedocs.io/en/develop/content/tools/plotCoverage.html) with `--outRawCounts`:
 
 ```bash
-plotCoverage -b sample1.bam sample2.bam sample3.bam \
+plotCoverage -b sample1.bam sample2.bam sample3.bam sample4.bam \
     --outRawCounts coverage.txt
 ```
 
