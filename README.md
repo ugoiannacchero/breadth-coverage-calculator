@@ -14,7 +14,7 @@ Outputs:
 ## Usage
 
 ```bash
-Rscript check_breath_coverage.R <input_file.txt>
+Rscript breadth-coverage-calculator.R <input_file.txt>
 ```
 
 ## Input
@@ -29,7 +29,7 @@ plotCoverage -b sample1.bam sample2.bam sample3.bam sample4.bam \
 ## Output
 
 ```bash
-Rscript check_breath_coverage.R coverage.txt
+Rscript breadth-coverage-calculator.R coverage.txt
 ```
 
 Generates:
